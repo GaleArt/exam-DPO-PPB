@@ -1,0 +1,41 @@
+@import url('https://fonts.cdnfonts.com/css/roboto');
+
+* {
+    box-sizing: border-box;
+}
+
+#myInput {
+    width: 95%;
+    font-family: 'Roboto Light', sans-serif;
+    font-size: 16px;
+    padding: 10px 20px 10px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+}
+
+#myTable {
+    border-collapse: collapse;
+    width: 95%;
+    border: 1px solid #ddd;
+    font-family: 'Roboto Light', sans-serif;
+    font-size: 16px;
+}
+
+#myTable th,
+#myTable td {
+    text-align: left;
+    padding: 10px;
+}
+
+#myTable th {
+    width: 50%;
+}
+
+#myTable tr {
+    border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header,
+#myTable tr:hover {
+    background-color: #4169E1;
+}
